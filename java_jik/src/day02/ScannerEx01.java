@@ -12,7 +12,7 @@ public class ScannerEx01 {
 		/* println(값) : 값을 출력하고 자동으로 줄바꿈 함
 		 * print(값) : 값을 출력
 		 */
-		/*System.out.println("정수를 입력하세요 : ");
+		System.out.println("정수를 입력하세요 : ");
 		int num = scan.nextInt();//콘솔에서 정수를 가져옴
 		System.out.println(num);
 		
@@ -23,7 +23,7 @@ public class ScannerEx01 {
 		System.out.println("문자열(단어)를 입력하세요 : ");
 		String str1 = scan.next(); //콘솔에서 공백(엔터,스페이스 등)전까지 문자열을 가져옴
 		System.out.println("단어 :"+ str1);
-		*/
+	
 		System.out.println("문자열(문장)을 입력하세요 :");
 		String str2 = scan.nextLine();//엔터까지 한 문장을 가져와서 엔터 전까지 저장함
 		System.out.println(str2);
