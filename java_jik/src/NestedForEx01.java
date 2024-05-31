@@ -14,6 +14,7 @@ public class NestedForEx01 {
 				System.out.println(num1 * num2);
 				
 		}
+	}
 	/*	int num =3; 
 		for(num = 2; num <= 9; num++) {
 		System.out.println(num + "단");
@@ -21,7 +22,3 @@ public class NestedForEx01 {
 			System.out.println(num + " X " + i + " = " + num * i);
 		}*/ 
 		
-		
-	
-
-
