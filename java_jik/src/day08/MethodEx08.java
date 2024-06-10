@@ -9,18 +9,21 @@ public class MethodEx08 {
 		 * 메서드를 이용
 		 * 
 		 */
-	Scanner scan.new Scanner(System.in);
+	Scanner scan=new Scanner(System.in);
 	
-	int list [];
+	
 	
 	System.out.println("정수 : ");
-	int i = scan.nextInt();
-
-		
+	int n = scan.nextInt();
+	
+	int[] intList = makeList(n);
+	
+	System.out.println(intList.length);
 		
 	}
 	// num1 값
-	public static int list ( int list[], int i ) {
+	public static int[] makeList ( int n) {
+		return new int[n];
 		
 	}
 	
